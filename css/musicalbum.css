@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	width: 90%;
+	height: 180px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.menu>h1{
+	margin-left: 20px;
+	font-size: 45px;
+}
+
+.menu-tab{
+	width: 90%;
+	height: 120px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-tab p{
+	color: #575653;
+	font-size: 35px;
+}
+
+.active{
+	
+	font-weight: 600;
+}
+.active>p{
+	color: #FF0000;
+	margin-top: 40px;
+}
+.active>div{
+	margin-top: 36px;
+	width: 70px;
+	height: 5px;
+	background-color: #FF0000;
+}
+
+.top-music{
+	width: 90%;
+	height: 600px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-music>div{
+	width: 350px;
+	height: 500px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0px 2px 1px #888888;
+}
+.top-music p{
+	
+	padding: 20px;
+	font-size: 25px;
+	word-break: normal;
+}
+.top-music img{
+	width: 350px;
+	height: 350px;
+}
+	
+.topst{
+	position: absolute;
+	width: 383px !important;
+	height: 540px !important;
+	left: 29%;
+	z-index: 999;
+}
+.topst img{
+	width: 383px;
+	height: 383px;
+}
+.topst p{
+	font-size: 32px;
+}
+.mask{
+	width: 100%;
+	height: 900px;
+	top: 0px;
+	background-image: url(../img/mask.png);
+	position: absolute;
+	z-index: -1;
+}
+.tab2{
+	width: 90%;
+	height: 400px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+
+.list1{
+	width: 250px;
+	font-size: 30px;
+	text-align: center;
+}
+.list1>img{
+	width: 250px;
+	height: 250px;
+	border-radius: 30px;
+}
+.list1>p{
+	text-align: left;
+	word-break:normal;
+}
+.footer{
+	width: 100%;
+	height: 150px;
+	border-top: 1px solid #979797;
+}
+.footer>div{
+	width: 90%;
+	height: 150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.music-cover{
+	display: flex;
+	align-items: center;
+}
+.music-cover>img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+
+}
+.music-cover>div{
+	margin-left: 20px;
+}
+.music-name{
+	font-size: 30px;
+}
+.tips{
+	font-size: 20px;
+	color: #979797;
+}
+
+.btn-box{
+	display: flex;
+	align-items: center;
+}
+.btn-box>img{
+	margin-left: 20px;
+}
